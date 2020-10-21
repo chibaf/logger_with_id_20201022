@@ -45,7 +45,7 @@ def PID():
     line_s.insert(0,str(itime))
     f.write(",".join(line_s))
     line_p=str(line).replace("\r\n","")
-    T_meas=float(line_s[2])  # temperature is from float(line_s[2]).  coreresponds to Tc-1.
+    T_meas=float(line_s[3])  # temperature is from float(line_s[2]).  coreresponds to Tc-1.
     print(line)   
     s_work="""
     T_measは、Tc-1なので、これをPIDの計測値としてPID制御をする。
