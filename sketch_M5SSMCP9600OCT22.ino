@@ -238,7 +238,7 @@ void setup()
   img.fillSprite(0xFA00);
   img.setTextColor(TFT_BLACK);
   img.setTextFont(4);
-  img.drawString("Thermocouple Temp", 5, 3);
+  img.drawString("TC Temp 01", 5, 3);
   img.pushSprite(35, 0);
   img.deleteSprite();
 
