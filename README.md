@@ -16,3 +16,5 @@ $ python3 read_logger_02.py d2020xxxx.csv "/dev/tty.SLAB_USBtoUART"
 
 
 ![logger-20201023a](https://user-images.githubusercontent.com/1296728/96927092-84a4d180-14f1-11eb-96e9-d7616ad75763.jpg)
+
+, where serial communication speed is 112500bps
